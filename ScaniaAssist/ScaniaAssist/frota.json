@@ -1,0 +1,73 @@
+[
+	{
+		"id": "00CP2103SP",
+		"serie": "Serie P",
+		"ano": "2021",
+		"oleo": "40.000 Km",
+		"revisao": "10/06/2023",
+        "pneu": "80.000 Km",
+        "quilometragem": "20.000 Km",
+		"image": "22175-1"
+	},
+	{
+        "id": "00CG2403SG",
+        "serie": "Serie G",
+        "ano": "2022",
+        "oleo": "80.000 Km",
+        "revisao": "15/08/2023",
+        "pneu": "120.000 Km",
+        "quilometragem": "60.000 Km",
+        "image": "22175-1"
+	},
+	{
+        "id": "00CRZ433SR",
+        "serie": "Serie R",
+        "ano": "2021",
+        "oleo": "240.000 Km",
+        "revisao": "09/02/2023",
+        "pneu": "250.000 Km",
+        "quilometragem": "200.000 Km",
+        "image": "22175-1"
+	},
+	{
+        "id": "00ZZ990HET",
+        "serie": "Hybrid electric Truck",
+        "ano": "2022",
+        "oleo": "40.000 Km",
+        "revisao": "21/06/2023",
+        "pneu": "80.000 Km",
+        "quilometragem": "20.260 Km",
+        "image": "22175-1"
+	},
+	{
+        "id": "00CP2103SP",
+        "serie": "Serie P",
+        "ano": "2022",
+        "oleo": "40.000 Km",
+        "revisao": "10/06/2023",
+        "pneu": "80.000 Km",
+        "quilometragem": "20.000 Km",
+        "image": "22175-1"
+	},
+	{
+        "id": "00CF2121SG",
+        "serie": "Serie G",
+        "ano": "2019",
+        "oleo": "165.500 Km",
+        "revisao": "15/12/2022",
+        "pneu": "180.000 Km",
+        "quilometragem": "160.000 Km",
+        "image": "22175-1"
+	},
+	{
+        "id": "00CP3334SP",
+        "serie": "Serie P",
+        "ano": "2019",
+        "oleo": "280.000 Km",
+        "revisao": "15/12/20232,
+        "pneu": "250.000 Km",
+        "quilometragem": "210.000 Km",
+        "image": "22175-1"
+	},
+	
+]

@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10DBC6728FDC9E900E04D64 /* SiteSobreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10DBC6628FDC9E900E04D64 /* SiteSobreViewController.swift */; };
+		F10DBC6928FDCD2C00E04D64 /* SiteSustaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10DBC6828FDCD2C00E04D64 /* SiteSustaViewController.swift */; };
+		F10DBC6B28FDCD3B00E04D64 /* SiteCarrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10DBC6A28FDCD3B00E04D64 /* SiteCarrViewController.swift */; };
+		F10DBC6D28FDE3DB00E04D64 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10DBC6C28FDE3DB00E04D64 /* AddViewController.swift */; };
+		F131D82728E24ECF00448711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F131D82628E24ECF00448711 /* AppDelegate.swift */; };
+		F131D82928E24ECF00448711 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F131D82828E24ECF00448711 /* SceneDelegate.swift */; };
+		F131D82B28E24ECF00448711 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F131D82A28E24ECF00448711 /* ViewController.swift */; };
+		F131D82E28E24ECF00448711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F131D82C28E24ECF00448711 /* Main.storyboard */; };
+		F131D83128E24ECF00448711 /* ScaniaAssist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F131D82F28E24ECF00448711 /* ScaniaAssist.xcdatamodeld */; };
+		F131D83328E24ED100448711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F131D83228E24ED100448711 /* Assets.xcassets */; };
+		F131D83628E24ED100448711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F131D83428E24ED100448711 /* LaunchScreen.storyboard */; };
+		F131D84128E24ED100448711 /* ScaniaAssistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F131D84028E24ED100448711 /* ScaniaAssistTests.swift */; };
+		F131D84B28E24ED100448711 /* ScaniaAssistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F131D84A28E24ED100448711 /* ScaniaAssistUITests.swift */; };
+		F131D84D28E24ED100448711 /* ScaniaAssistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F131D84C28E24ED100448711 /* ScaniaAssistUITestsLaunchTests.swift */; };
+		F131D85A28E252C100448711 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F131D85928E252C100448711 /* MapViewController.swift */; };
+		F142EDBD28FC98C800A4213F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142EDBC28FC98C800A4213F /* LoginViewController.swift */; };
+		F142EDBF28FC98DA00A4213F /* CadastrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142EDBE28FC98DA00A4213F /* CadastrarViewController.swift */; };
+		F142EDC128FC98FB00A4213F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142EDC028FC98FB00A4213F /* HomeViewController.swift */; };
+		F142EDC528FC991C00A4213F /* CaminhaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142EDC428FC991C00A4213F /* CaminhaoViewController.swift */; };
+		F142EDC728FC992B00A4213F /* SuporteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142EDC628FC992B00A4213F /* SuporteViewController.swift */; };
+		F142EDCB28FCEA6000A4213F /* FrotaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142EDCA28FCEA6000A4213F /* FrotaTableViewController.swift */; };
+		F142EDCD28FCEC8400A4213F /* Frota.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142EDCC28FCEC8400A4213F /* Frota.swift */; };
+		F142EDCF28FD873400A4213F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142EDCE28FD873400A4213F /* ChatViewController.swift */; };
+		F142EDD128FD8BD000A4213F /* FrotaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F142EDD028FD8BD000A4213F /* FrotaTableViewCell.swift */; };
+		F142EDD328FD90BA00A4213F /* frota.json in Resources */ = {isa = PBXBuildFile; fileRef = F142EDD228FD90BA00A4213F /* frota.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F131D83D28E24ED100448711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F131D81B28E24ECF00448711 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F131D82228E24ECF00448711;
+			remoteInfo = ScaniaAssist;
+		};
+		F131D84728E24ED100448711 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F131D81B28E24ECF00448711 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F131D82228E24ECF00448711;
+			remoteInfo = ScaniaAssist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F10DBC6628FDC9E900E04D64 /* SiteSobreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteSobreViewController.swift; sourceTree = "<group>"; };
+		F10DBC6828FDCD2C00E04D64 /* SiteSustaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteSustaViewController.swift; sourceTree = "<group>"; };
+		F10DBC6A28FDCD3B00E04D64 /* SiteCarrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteCarrViewController.swift; sourceTree = "<group>"; };
+		F10DBC6C28FDE3DB00E04D64 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		F131D82328E24ECF00448711 /* ScaniaAssist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaniaAssist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F131D82628E24ECF00448711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F131D82828E24ECF00448711 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F131D82A28E24ECF00448711 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F131D82D28E24ECF00448711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F131D83028E24ECF00448711 /* ScaniaAssist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScaniaAssist.xcdatamodel; sourceTree = "<group>"; };
+		F131D83228E24ED100448711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F131D83528E24ED100448711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F131D83728E24ED100448711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F131D83C28E24ED100448711 /* ScaniaAssistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaniaAssistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F131D84028E24ED100448711 /* ScaniaAssistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaniaAssistTests.swift; sourceTree = "<group>"; };
+		F131D84628E24ED100448711 /* ScaniaAssistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaniaAssistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F131D84A28E24ED100448711 /* ScaniaAssistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaniaAssistUITests.swift; sourceTree = "<group>"; };
+		F131D84C28E24ED100448711 /* ScaniaAssistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaniaAssistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F131D85928E252C100448711 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F142EDBC28FC98C800A4213F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F142EDBE28FC98DA00A4213F /* CadastrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastrarViewController.swift; sourceTree = "<group>"; };
+		F142EDC028FC98FB00A4213F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F142EDC428FC991C00A4213F /* CaminhaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaminhaoViewController.swift; sourceTree = "<group>"; };
+		F142EDC628FC992B00A4213F /* SuporteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuporteViewController.swift; sourceTree = "<group>"; };
+		F142EDCA28FCEA6000A4213F /* FrotaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrotaTableViewController.swift; sourceTree = "<group>"; };
+		F142EDCC28FCEC8400A4213F /* Frota.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frota.swift; sourceTree = "<group>"; };
+		F142EDCE28FD873400A4213F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		F142EDD028FD8BD000A4213F /* FrotaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrotaTableViewCell.swift; sourceTree = "<group>"; };
+		F142EDD228FD90BA00A4213F /* frota.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = frota.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F131D82028E24ECF00448711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F131D83928E24ED100448711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F131D84328E24ED100448711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F131D81A28E24ECF00448711 = {
+			isa = PBXGroup;
+			children = (
+				F131D82528E24ECF00448711 /* ScaniaAssist */,
+				F131D83F28E24ED100448711 /* ScaniaAssistTests */,
+				F131D84928E24ED100448711 /* ScaniaAssistUITests */,
+				F131D82428E24ECF00448711 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F131D82428E24ECF00448711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F131D82328E24ECF00448711 /* ScaniaAssist.app */,
+				F131D83C28E24ED100448711 /* ScaniaAssistTests.xctest */,
+				F131D84628E24ED100448711 /* ScaniaAssistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F131D82528E24ECF00448711 /* ScaniaAssist */ = {
+			isa = PBXGroup;
+			children = (
+				F131D82628E24ECF00448711 /* AppDelegate.swift */,
+				F10DBC6C28FDE3DB00E04D64 /* AddViewController.swift */,
+				F142EDD228FD90BA00A4213F /* frota.json */,
+				F142EDBC28FC98C800A4213F /* LoginViewController.swift */,
+				F142EDBE28FC98DA00A4213F /* CadastrarViewController.swift */,
+				F131D82828E24ECF00448711 /* SceneDelegate.swift */,
+				F131D82A28E24ECF00448711 /* ViewController.swift */,
+				F131D82C28E24ECF00448711 /* Main.storyboard */,
+				F10DBC6628FDC9E900E04D64 /* SiteSobreViewController.swift */,
+				F10DBC6828FDCD2C00E04D64 /* SiteSustaViewController.swift */,
+				F10DBC6A28FDCD3B00E04D64 /* SiteCarrViewController.swift */,
+				F142EDD028FD8BD000A4213F /* FrotaTableViewCell.swift */,
+				F142EDCE28FD873400A4213F /* ChatViewController.swift */,
+				F142EDCC28FCEC8400A4213F /* Frota.swift */,
+				F142EDCA28FCEA6000A4213F /* FrotaTableViewController.swift */,
+				F142EDC028FC98FB00A4213F /* HomeViewController.swift */,
+				F142EDC428FC991C00A4213F /* CaminhaoViewController.swift */,
+				F142EDC628FC992B00A4213F /* SuporteViewController.swift */,
+				F131D85928E252C100448711 /* MapViewController.swift */,
+				F131D83228E24ED100448711 /* Assets.xcassets */,
+				F131D83428E24ED100448711 /* LaunchScreen.storyboard */,
+				F131D83728E24ED100448711 /* Info.plist */,
+				F131D82F28E24ECF00448711 /* ScaniaAssist.xcdatamodeld */,
+			);
+			path = ScaniaAssist;
+			sourceTree = "<group>";
+		};
+		F131D83F28E24ED100448711 /* ScaniaAssistTests */ = {
+			isa = PBXGroup;
+			children = (
+				F131D84028E24ED100448711 /* ScaniaAssistTests.swift */,
+			);
+			path = ScaniaAssistTests;
+			sourceTree = "<group>";
+		};
+		F131D84928E24ED100448711 /* ScaniaAssistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F131D84A28E24ED100448711 /* ScaniaAssistUITests.swift */,
+				F131D84C28E24ED100448711 /* ScaniaAssistUITestsLaunchTests.swift */,
+			);
+			path = ScaniaAssistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F131D82228E24ECF00448711 /* ScaniaAssist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F131D85028E24ED100448711 /* Build configuration list for PBXNativeTarget "ScaniaAssist" */;
+			buildPhases = (
+				F131D81F28E24ECF00448711 /* Sources */,
+				F131D82028E24ECF00448711 /* Frameworks */,
+				F131D82128E24ECF00448711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScaniaAssist;
+			productName = ScaniaAssist;
+			productReference = F131D82328E24ECF00448711 /* ScaniaAssist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F131D83B28E24ED100448711 /* ScaniaAssistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F131D85328E24ED100448711 /* Build configuration list for PBXNativeTarget "ScaniaAssistTests" */;
+			buildPhases = (
+				F131D83828E24ED100448711 /* Sources */,
+				F131D83928E24ED100448711 /* Frameworks */,
+				F131D83A28E24ED100448711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F131D83E28E24ED100448711 /* PBXTargetDependency */,
+			);
+			name = ScaniaAssistTests;
+			productName = ScaniaAssistTests;
+			productReference = F131D83C28E24ED100448711 /* ScaniaAssistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F131D84528E24ED100448711 /* ScaniaAssistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F131D85628E24ED100448711 /* Build configuration list for PBXNativeTarget "ScaniaAssistUITests" */;
+			buildPhases = (
+				F131D84228E24ED100448711 /* Sources */,
+				F131D84328E24ED100448711 /* Frameworks */,
+				F131D84428E24ED100448711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F131D84828E24ED100448711 /* PBXTargetDependency */,
+			);
+			name = ScaniaAssistUITests;
+			productName = ScaniaAssistUITests;
+			productReference = F131D84628E24ED100448711 /* ScaniaAssistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F131D81B28E24ECF00448711 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F131D82228E24ECF00448711 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F131D83B28E24ED100448711 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F131D82228E24ECF00448711;
+					};
+					F131D84528E24ED100448711 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F131D82228E24ECF00448711;
+					};
+				};
+			};
+			buildConfigurationList = F131D81E28E24ECF00448711 /* Build configuration list for PBXProject "ScaniaAssist" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F131D81A28E24ECF00448711;
+			productRefGroup = F131D82428E24ECF00448711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F131D82228E24ECF00448711 /* ScaniaAssist */,
+				F131D83B28E24ED100448711 /* ScaniaAssistTests */,
+				F131D84528E24ED100448711 /* ScaniaAssistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F131D82128E24ECF00448711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F131D83628E24ED100448711 /* LaunchScreen.storyboard in Resources */,
+				F131D83328E24ED100448711 /* Assets.xcassets in Resources */,
+				F142EDD328FD90BA00A4213F /* frota.json in Resources */,
+				F131D82E28E24ECF00448711 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F131D83A28E24ED100448711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F131D84428E24ED100448711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F131D81F28E24ECF00448711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F142EDCB28FCEA6000A4213F /* FrotaTableViewController.swift in Sources */,
+				F10DBC6728FDC9E900E04D64 /* SiteSobreViewController.swift in Sources */,
+				F10DBC6D28FDE3DB00E04D64 /* AddViewController.swift in Sources */,
+				F142EDBD28FC98C800A4213F /* LoginViewController.swift in Sources */,
+				F131D82B28E24ECF00448711 /* ViewController.swift in Sources */,
+				F142EDC728FC992B00A4213F /* SuporteViewController.swift in Sources */,
+				F142EDCD28FCEC8400A4213F /* Frota.swift in Sources */,
+				F142EDBF28FC98DA00A4213F /* CadastrarViewController.swift in Sources */,
+				F142EDC128FC98FB00A4213F /* HomeViewController.swift in Sources */,
+				F131D82728E24ECF00448711 /* AppDelegate.swift in Sources */,
+				F131D82928E24ECF00448711 /* SceneDelegate.swift in Sources */,
+				F131D85A28E252C100448711 /* MapViewController.swift in Sources */,
+				F142EDCF28FD873400A4213F /* ChatViewController.swift in Sources */,
+				F10DBC6928FDCD2C00E04D64 /* SiteSustaViewController.swift in Sources */,
+				F10DBC6B28FDCD3B00E04D64 /* SiteCarrViewController.swift in Sources */,
+				F131D83128E24ECF00448711 /* ScaniaAssist.xcdatamodeld in Sources */,
+				F142EDC528FC991C00A4213F /* CaminhaoViewController.swift in Sources */,
+				F142EDD128FD8BD000A4213F /* FrotaTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F131D83828E24ED100448711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F131D84128E24ED100448711 /* ScaniaAssistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F131D84228E24ED100448711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F131D84D28E24ED100448711 /* ScaniaAssistUITestsLaunchTests.swift in Sources */,
+				F131D84B28E24ED100448711 /* ScaniaAssistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F131D83E28E24ED100448711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F131D82228E24ECF00448711 /* ScaniaAssist */;
+			targetProxy = F131D83D28E24ED100448711 /* PBXContainerItemProxy */;
+		};
+		F131D84828E24ED100448711 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F131D82228E24ECF00448711 /* ScaniaAssist */;
+			targetProxy = F131D84728E24ED100448711 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F131D82C28E24ECF00448711 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F131D82D28E24ECF00448711 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F131D83428E24ED100448711 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F131D83528E24ED100448711 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F131D84E28E24ED100448711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F131D84F28E24ED100448711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F131D85128E24ED100448711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3J44TXP2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScaniaAssist/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.Caiothom.ScaniaAssist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F131D85228E24ED100448711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3J44TXP2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ScaniaAssist/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.Caiothom.ScaniaAssist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F131D85428E24ED100448711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3J44TXP2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.Caiothom.ScaniaAssistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaniaAssist.app/ScaniaAssist";
+			};
+			name = Debug;
+		};
+		F131D85528E24ED100448711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3J44TXP2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.Caiothom.ScaniaAssistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaniaAssist.app/ScaniaAssist";
+			};
+			name = Release;
+		};
+		F131D85728E24ED100448711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3J44TXP2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.Caiothom.ScaniaAssistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScaniaAssist;
+			};
+			name = Debug;
+		};
+		F131D85828E24ED100448711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3J44TXP2P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.Caiothom.ScaniaAssistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScaniaAssist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F131D81E28E24ECF00448711 /* Build configuration list for PBXProject "ScaniaAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F131D84E28E24ED100448711 /* Debug */,
+				F131D84F28E24ED100448711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F131D85028E24ED100448711 /* Build configuration list for PBXNativeTarget "ScaniaAssist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F131D85128E24ED100448711 /* Debug */,
+				F131D85228E24ED100448711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F131D85328E24ED100448711 /* Build configuration list for PBXNativeTarget "ScaniaAssistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F131D85428E24ED100448711 /* Debug */,
+				F131D85528E24ED100448711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F131D85628E24ED100448711 /* Build configuration list for PBXNativeTarget "ScaniaAssistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F131D85728E24ED100448711 /* Debug */,
+				F131D85828E24ED100448711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F131D82F28E24ECF00448711 /* ScaniaAssist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F131D83028E24ECF00448711 /* ScaniaAssist.xcdatamodel */,
+			);
+			currentVersion = F131D83028E24ECF00448711 /* ScaniaAssist.xcdatamodel */;
+			path = ScaniaAssist.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F131D81B28E24ECF00448711 /* Project object */;
+}
